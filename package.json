@@ -1,0 +1,24 @@
+{
+  "name": "nodescraptin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/server.ts",
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "tsup": "^6.6.3",
+    "tsx": "^3.12.3"
+  }
+}
